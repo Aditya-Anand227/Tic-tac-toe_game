@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+  
+     text-align: center;
+     background-image: url(https://images.unsplash.com/photo-1705437576510-cd12ae0ebb68?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    /* border: 1px red solid; */
+
+
+}
+
+.game{
+     height: 60vmin;
+     width: 60vmin;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 1.5vmin;
+     /* border: 1px solid red; */
+    
+
+}
+
+.box{
+     height: 18vmin;
+     width: 18vmin;
+     /* background-color: rgb(242, 137, 9); */
+     background-color:hsla(310, 38%, 37%, 0.3);
+     backdrop-filter: blur(10px);
+     border-radius: 1rem;
+     font-size: 8vmin;
+     color: black;
+     
+}
+
+
+.reset{
+     
+          /* background-color: #04AA6D;
+           */
+           background-color:hsla(310, 38%, 37%, 0.8);
+          border-radius: 2vmin;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin-top: 10px;
+     
+}
+
+.reset:hover{
+     transform: scale(1.1);
+     box-shadow: 0 0 100px rgb(8, 8, 8);
+
+}
+
+.new-game{
+     background-color: #04AA6D; /* Green */
+     border-radius: 2vmin;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+
+}
+
+.msg-container{
+      height: 80vmin;
+} 
+
+.hide{
+      display: none;
+}
+
+.msg{
+     font-size: 10vmin;
+     color: chocolate;
+}
+
+body h1{
+     font-family: "Protest Strike", sans-serif;
+     color: blueviolet;
+     font-size: 70px;
+}
+
+.box:hover{
+     transform: scale(1.02);
+     box-shadow: 0 0 10px rgb(124, 159, 70);
+}
+
